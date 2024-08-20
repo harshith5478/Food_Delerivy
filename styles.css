@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.header-list > ul{
+    list-style-type: none;
+    display: flex;
+}
+.header-list > ul >li{
+    padding: 3px;
+    margin: 5px;
+}
+.data > img{
+    width: 190px;
+    height: 150px;
+    padding: 5px;
+    object-fit: cover;
+
+}
+.data{
+    padding: 5px;
+    margin: 5px;
+    border: 0.5px solid black;
+    width: 200px
+}
+.data:hover{
+    border: 2px solid rgb(255, 9, 9);
+}
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+}
+
+.logo {
+    width: 90px;
+    padding: 10px;
+}
+
+.btnRateFilter{
+    margin: 5px;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btns > button{
+    margin: 5px;
+}
+.Shim-cont{
+padding: 5px;
+margin: 5px;
+border: 0.5px solid black;
+width: 200px;
+height: 350px;
+background-color: #f7f6f5;
+}
+.Shim {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+}
